@@ -42,16 +42,16 @@
 
       async function start() {
         // Untuk menambah pop up ucapan tambahkan seperti format dibawah ini
-        await swalo.fire({ title: "Ini Popup 1" });
+        await swalo.fire({ title: "hallo sayangku" });
         playMusik();
-        await swalo.fire({ title: "Ini Popup 2" });
-        await swalo.fire({ title: "Ini Popup 3" });
+        await swalo.fire({ title: "cihuyyy ulagn tahun" });
+        await swalo.fire({ title: "Mantappp" });
 
         // Dibawah ini jangan diedit
         $(".loading").fadeOut("slow");
       }
 
-      async function kirimpesan() {
+      async function kirimpesanayangcu() {
         var { value: pesanku } = await swalo.fire({ imageUrl: "https://files.dariku.my.id/mylove/cutie1.gif", title: "Tulis pesan", input: "textarea", confirmButtonText: "Kirim" });
         klik.play();
         if (pesanku) {
