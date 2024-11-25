@@ -20,10 +20,10 @@
     <div class="main">
       <div class="content">
         <div class="btn-mulai">
-          <p class="hilang1">Klik Aku</p>
-          <p class="hilang2">Pesan selanjutnya</p>
-          <p class="hilang3">Pesan selanjutnya</p>
-          <p class="hilang4">Kirim Pesan</p>
+          <p class="hilang1">Klik Aku ayang</p>
+          <p class="hilang2">Pesan selanjutnya ayangcu</p>
+          <p class="hilang3">Pesan selanjutnya ayangcu</p>
+          <p class="hilang4">Kirim Pesan ayangcu</p>
         </div>
       </div>
     </div>
@@ -37,14 +37,14 @@
       var ucapantiga = "semoga yang dipengenin segera tercapai ya cantik semoga sehat selau AYaang MANTAAapppp";
       // Untuk ucapan saat ini maksimal 3
 
-      var background = "foto.jpg";
+      var background = "s5.jpg";
       var noWhatsapp = "6282245048008";
 
       async function start() {
         // Untuk menambah pop up ucapan tambahkan seperti format dibawah ini
         await swalo.fire({ title: "hallo sayangku" });
         playMusik();
-        await swalo.fire({ title: "cihuyyy ulagn tahun" });
+        await swalo.fire({ title: "cihuyyy ulang tahun" });
         await swalo.fire({ title: "Mantappp" });
 
         // Dibawah ini jangan diedit
@@ -59,7 +59,7 @@
           if (noWhatsapp > 10) location.assign("https://wa.me/" + noWhatsapp + "?text=" + pesanku);
           else location.assign("https://wa.me/?text=" + pesanku);
         } else {
-          await swalo.fire({ imageUrl: "https://files.dariku.my.id/mylove/cutie2.gif", confirmButtonText: "Ok", title: "Jangan dikosongin dong" });
+          await swalo.fire({ imageUrl: "https://files.dariku.my.id/mylove/cutie2.gif", confirmButtonText: "Ok", title: "Jangan dikosongin yangggg" });
           klik.play();
           kirimpesan();
         }
