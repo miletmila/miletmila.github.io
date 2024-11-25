@@ -51,7 +51,7 @@
         $(".loading").fadeOut("slow");
       }
 
-      async function kirimpesanayangcu() {
+      async function kirimpesan() {
         var { value: pesanku } = await swalo.fire({ imageUrl: "https://files.dariku.my.id/mylove/cutie1.gif", title: "Tulis pesan", input: "textarea", confirmButtonText: "Kirim" });
         klik.play();
         if (pesanku) {
